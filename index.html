@@ -3,7 +3,7 @@
     <head>
 
         <!-- ========== PAGE TITLE ========== -->
-        <title>Sree | Coming Soon HTML5 Site Template</title>
+        <title>Sree - Slideshow Typer | coming soon HTML5 site template</title>
 
         <!-- ========== META TAGS ========== -->
         <meta name="description" content="coming soon template based on HTML5">
@@ -24,31 +24,84 @@
 
         <!-- ========== MINIFIED VENDOR CSS ========== -->
         <link rel="stylesheet" href="styles/vendor.css">
-        <link rel="stylesheet" href="styles/main-demo.css">
+        <link rel="stylesheet" href="styles/main.css">
 
         <!-- ========== MODERNIZR ========== -->
     	<script src="scripts/vendor/modernizr.js"></script>
     </head> <!-- end head -->
 
-    <!-- ========== BODY ========== -->
-    <body class="animsition" id="baseline">
+    <!-- ========== BODY ==========
+    .light-header: for light colored header
+    .dark-header: for dark colored header
+    ==========  ========== -->
+    <body class="light-header animsition">
 
         <!-- ========== HEADER ========== -->
-        <header class="head">
-            <div class="container">
-                <div class="col-md-12">
+        <header class="header">
+            <div class="container-fluid">
+                <div class="row">
 
-                    <!-- ========== LOGO ========== -->
-                    <div class="col-md-12 text-center mb20">
-                        <img src="images/logo-dark.png" alt="sree - coming soon template" class="logo" />
-                    </div>
+                    <!-- ========== LOGO  ========== -->
+                    <div class="col-md-6 col-sm-6">
+                        <img src="images/logo-light.png" alt="sree - Coming soon HTML template" class="light-logo">
+                        <img src="images/logo-dark.png" alt="sree - Coming soon HTML template" class="dark-logo">
+                    </div> <!-- end col-md-6 -->
 
-                    <!-- ========== HEADLINE ========== -->
-                    <h1 class="text-center">Last coming soon template you will ever need!</h1>
-                    <p class="text-center text-muted">'sree' is completely responsive modern site template built on HTML5 & CSS3.</p>
+                    <!-- ========== SOCIAL MEDIA LINKS ========== -->
+                    <div class="col-md-6 col-sm-6 text-right hidden-xs">
+                        <a href="#" class="social-btn"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="social-btn"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="social-btn"><i class="fa fa-google-plus"></i></a>
+                        <a href="#" class="social-btn"><i class="fa fa-envelope"></i></a>
+                    </div> <!-- end col-md-6 -->
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </header>
 
-                    <!-- ========== FEATURES ========== -->
-                    <div class="row mb50">
+        <div class=""  id="fullpage">
+            <!-- ========== SLIDESHOW DIV ========== -->
+            <section class="slideshow-div section content-section" id="home">
+                <div class="content">
+                    <div class="container outer">
+                        <div class="row inner">
+                            <div class="col-md-12 centered">
+
+                                <!-- ========== ROTATING HEADLINE ========== -->
+                                <h1 class="headline">We believe in <span id="typer" class="typer" data-typer-targets="Perfection, Creation, Impression, Enthrall"></span>. <small>We are coming soon.</small></h1>
+
+                                <!-- ========== COUNTDOWN ========== -->
+                                <div class="countdown-container countdown col-md-8 col-md-offset-2 hidden-xs" id="countdown"></div>
+
+                                <div class="clearfix"></div>
+
+                                <!-- ========== NOTIFY FORM ========== -->
+                                <form class="notify-div mc-form">
+                                    <input type="email" name="email" value="" placeholder="Email id.." required=""/>
+                                    <button type="submit" class="sr-btn white-btn"><span class="icon ion-ios-paperplane"></span>Notify Me</button>
+                                </form> <!-- end form -->
+
+                            </div> <!-- end col-md-12 -->
+                        </div> <!-- end row -->
+                    </div> <!-- end container -->
+
+                </div> <!-- end content -->
+            </section> <!-- end section -->
+
+            <!-- ========== FEATURES ========== -->
+            <section class="content-section section" id="features">
+                <div class="container">
+
+                    <!-- ========== SECTION TITLE ========== -->
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 text-center section-title">
+                            <h3 class="underline longer-underline">The Awesome Concept</h3>
+                            <p>A perfect coming soon theme creates a lasting impression on your website visitor. It comes with an exceptional features which strongly boost your business.</p>
+                        </div> <!-- end .section-title -->
+                    </div> <!-- end row -->
+
+                    <div class="row mb30">
+
+                        <!-- ========== SINGLE FEATURE ========== -->
                         <div class="col-md-6 col-sm-6">
                             <div class=" feature-left-icon">
                                 <div class="icon col-md-2 col-sm-3">
@@ -56,7 +109,7 @@
                                 </div>
                                 <div class="col-md-10 col-sm-9">
                                     <h4 class="feature-title">Professional Design</h4>
-                                    <p class="feature-desc">Our approach is tailored for coming soon websites. We believe in simple & flexible design standards.</p>
+                                    <p class="feature-desc">Our approach is tailored & unique to each client. We do innovative things as we believe in simple, creative & flexible design standards.</p>
                                 </div>
                                 <i class="bg-icon ion-ios-color-filter"></i>
                                 <div class="clearfix"></div>
@@ -66,400 +119,172 @@
                         <div class="col-md-6 col-sm-6">
                             <div class=" feature-left-icon">
                                 <div class="icon col-md-2 col-sm-3">
-                                    <i class="ion-thumbsup"></i>
+                                    <i class="ion-ios-football"></i>
                                 </div>
                                 <div class="col-md-10 col-sm-9">
-                                    <h4 class="feature-title">24 Ready to Use Demos</h4>
-                                    <p class="feature-desc">24 demos pages are ready to use. Just change the content & it is ready. </p>
+                                    <h4 class="feature-title">Easy To Use</h4>
+                                    <p class="feature-desc">It gives a flexibility to build site using purpose made content blocks. The interface is intuitive, allowing swift & extensive changes. </p>
                                 </div>
-                                <i class="bg-icon ion-thumbsup"></i>
+                                <i class="bg-icon ion-ios-football"></i>
                                 <div class="clearfix"></div>
                             </div> <!-- end feature-left-icon -->
                         </div> <!-- end col-md-6 -->
-                    </div>
+                    </div> <!-- end row -->
 
-                    <div class="row mb50">
+                    <div class="row mb30">
                         <div class="col-md-6 col-sm-6">
                             <div class=" feature-left-icon">
                                 <div class="icon col-md-2 col-sm-3">
-                                    <i class="ion-ios-gear"></i>
+                                    <i class="ion-ios-infinite"></i>
                                 </div>
                                 <div class="col-md-10 col-sm-9">
-                                    <h4 class="feature-title">8 Color Schemes</h4>
-                                    <p class="feature-desc">8 different color schemes are ready for you. Choose the one which suits your business.</p>
+                                    <h4 class="feature-title">Free Updates</h4>
+                                    <p class="feature-desc">Buy once and get updates for lifetime. This template has well organized and commended code makes it easy for you to customize.  </p>
                                 </div>
-                                <i class="bg-icon ion-ios-gear"></i>
+                                <i class="bg-icon ion-ios-infinite"></i>
                                 <div class="clearfix"></div>
                             </div> <!-- end feature-left-icon -->
                         </div> <!-- end col-md-6 -->
-
                         <div class="col-md-6 col-sm-6">
-                            <div class=" feature-left-icon">
+                            <div class="feature-left-icon">
                                 <div class="icon col-md-2 col-sm-3">
-                                    <i class="ion-ios-email"></i>
+                                    <i class="ion-ios-people"></i>
                                 </div>
                                 <div class="col-md-10 col-sm-9">
-                                    <h4 class="feature-title">Mailchimp Integrated</h4>
-                                    <p class="feature-desc">Converting website visitor into a user is easy now. Get them subscribed to your mailing list.</p>
+                                    <h4 class="feature-title">Awesome Support</h4>
+                                    <p class="feature-desc">We provide fast and high quality support for all customers. Feel free to contact us, we try to respond to everyone within 24 hrs. period.</p>
                                 </div>
-                                <i class="bg-icon ion-ios-email"></i>
+                                <i class="bg-icon ion-ios-people"></i>
                                 <div class="clearfix"></div>
-                            </div> <!-- end feature-left-icon -->
+                            </div>
                         </div> <!-- end col-md-6 -->
-                    </div>
+                    </div> <!-- end row -->
 
-                    <div class="row text-center">
-                        <a class="sr-btn btn-primary" href="http://themeforest.net/item/sree-responsive-coming-soon-template/15846988" target="_blank">Buy Now @ $10</a>
-                        <a class="sr-btn white-btn" href="#demos">Check Demos</a>
-                    </div>
+                </div> <!-- end container -->
+            </section> <!-- end section -->
 
-                </div> <!-- end col-md-12 -->
-            </div> <!-- end container -->
-        </header> <!-- end header -->
-
-        <!-- ========== PARTICLES DEMOS SECTION ========== -->
-        <section class="demos-section" id="demos">
-            <div class="container">
-                <div class="row">
+            <!-- ========== ABOUT US SECTION ========== -->
+            <section class="content-section section" id="aboutUs">
+                <div class="container">
 
                     <!-- ========== SECTION TITLE ========== -->
-                    <header class="section-title text-center">
-                        <h4 class="underline">Particles Background</h4>
-                        <p class="text-muted">Engage visitor on your website with nice & subtle particle animations in background.</p>
-                    </header> <!-- end header -->
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="particles-rotator.html" title="Particle Background + Word Rotator" class="animsition-link">
-                            <img src="images/demo1.jpg" alt="Demo 1" class="img-responsive">
-                            <h6 class="mtn">Word Rotator</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="particles-typer.html" title="Particle Background + Word Typer" class="animsition-link">
-                            <img src="images/demo2.jpg" alt="Demo 2" class="img-responsive">
-                            <h6 class="mtn">Word Typer</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="particles-static.html" title="Particle Background + Static Text">
-                            <img src="images/demo3.jpg" alt="Demo 3" class="img-responsive">
-                            <h6 class="mtn">Static Text</h6>
-                        </a>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section> <!-- end demos-section -->
-
-        <!-- ========== CIRCLE DEMOS SECTION ========== -->
-        <section class="demos-section">
-            <div class="container">
-                <div class="row">
-
-                    <!-- ========== SECTION TITLE ========== -->
-                    <header class="section-title text-center">
-                        <h4 class="underline">Animated Circles Background <span class="badge mb20">New</span></h4>
-                        <p class="text-muted">Engage visitor on your website with nice & subtle circles animating in the background.</p>
-                    </header> <!-- end header -->
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="circles-rotator.html" title="Particle Background + Word Rotator" class="animsition-link">
-                            <img src="images/demo16.jpg" alt="Demo 1" class="img-responsive">
-                            <h6 class="mtn">Word Rotator</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="circles-typer.html" title="Particle Background + Word Typer" class="animsition-link">
-                            <img src="images/demo17.jpg" alt="Demo 2" class="img-responsive">
-                            <h6 class="mtn">Word Typer</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="circles-static.html" title="Particle Background + Static Text">
-                            <img src="images/demo18.jpg" alt="Demo 3" class="img-responsive">
-                            <h6 class="mtn">Static Text</h6>
-                        </a>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section> <!-- end demos-section -->
-
-        <!-- ========== SQUARE DEMOS SECTION ========== -->
-        <section class="demos-section">
-            <div class="container">
-                <div class="row">
-
-                    <!-- ========== SECTION TITLE ========== -->
-                    <header class="section-title text-center">
-                        <h4 class="underline">Animated Squares Background <span class="badge mb20">New</span></h4>
-                        <p class="text-muted">Engage visitor on your website with nice & subtle squares animating in the background.</p>
-                    </header> <!-- end header -->
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="square-rotator.html" title="Particle Background + Word Rotator" class="animsition-link">
-                            <img src="images/demo19.jpg" alt="Demo 1" class="img-responsive">
-                            <h6 class="mtn">Word Rotator</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="square-typer.html" title="Particle Background + Word Typer" class="animsition-link">
-                            <img src="images/demo20.jpg" alt="Demo 2" class="img-responsive">
-                            <h6 class="mtn">Word Typer</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="square-static.html" title="Particle Background + Static Text">
-                            <img src="images/demo21.jpg" alt="Demo 3" class="img-responsive">
-                            <h6 class="mtn">Static Text</h6>
-                        </a>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section> <!-- end demos-section -->
-
-        <!-- ========== YOUTUBE VIDEO SECTION ========== -->
-        <section class="demos-section">
-            <div class="container">
-                <div class="row">
-
-                    <!-- ========== SECTION TITLE ========== -->
-                    <header class="section-title text-center">
-                        <h4 class="underline">YouTube Video Background <span class="badge mb20">New</span></h4>
-                        <p class="text-muted">Engage visitor on your website with nice & subtle YouTube video in the background.</p>
-                    </header> <!-- end header -->
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="video-rotator.html" title="Particle Background + Word Rotator" class="animsition-link">
-                            <img src="images/demo22.jpg" alt="Demo 1" class="img-responsive">
-                            <h6 class="mtn">Word Rotator</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="video-typer.html" title="Particle Background + Word Typer" class="animsition-link">
-                            <img src="images/demo23.jpg" alt="Demo 2" class="img-responsive">
-                            <h6 class="mtn">Word Typer</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="video-static.html" title="Particle Background + Static Text">
-                            <img src="images/demo24.jpg" alt="Demo 3" class="img-responsive">
-                            <h6 class="mtn">Static Text</h6>
-                        </a>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section> <!-- end demos-section -->
-
-        <!-- ========== SLIDESHOW DEMOS SECTION ========== -->
-        <section class="demos-section">
-            <div class="container">
-                <div class="row">
-
-                    <!-- ========== SECTION TITLE ========== -->
-                    <header class="section-title text-center">
-                        <h4 class="underline">Slideshow Background</h4>
-                        <p class="text-muted">Engage visitor on your website with nice & subtle background slideshow.</p>
-                    </header> <!-- end header -->
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="slideshow-rotator.html" title="Slideshow Background + Word Rotator">
-                            <img src="images/demo4.jpg" alt="Demo 4" class="img-responsive">
-                            <h6 class="mtn">Word Rotator</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="slideshow-typer.html" title="Slideshow Background + Word Typer">
-                            <img src="images/demo5.jpg" alt="Demo 5" class="img-responsive">
-                            <h6 class="mtn">Word Typer</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="slideshow-static.html" title="Slideshow Background + Static Text">
-                            <img src="images/demo6.jpg" alt="Demo 6" class="img-responsive">
-                            <h6 class="mtn">Static Text</h6>
-                        </a>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section> <!-- end demos-section -->
-
-        <!-- ========== STATIC IMAGE DEMOS SECTION ========== -->
-        <section class="demos-section">
-            <div class="container">
-                <div class="row">
-
-                    <!-- ========== SECTION TITLE ========== -->
-                    <header class="section-title text-center">
-                        <h4 class="underline">Static Image Background</h4>
-                        <p class="text-muted">Use awesome images in background & highlight your content more.</p>
-                    </header> <!-- end header -->
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="static-rotator.html" title="Static Image + Word Rotator">
-                            <img src="images/demo7.jpg" alt="Demo 7" class="img-responsive">
-                            <h6 class="mtn">Word Rotator</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="static-typer.html" title="Static Image + Word Typer">
-                            <img src="images/demo8.jpg" alt="Demo 8" class="img-responsive">
-                            <h6 class="mtn">Word Typer</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="static-static.html" title="Static Image + Static Text">
-                            <img src="images/demo9.jpg" alt="Demo 9" class="img-responsive">
-                            <h6 class="mtn">Static Text</h6>
-                        </a>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section> <!-- end demos-section -->
-
-        <!-- ========== SOLID COLOR BACKGROUND DEMOS SECTION ========== -->
-        <section class="demos-section">
-            <div class="container">
-                <div class="row">
-
-                    <!-- ========== SECTION TITLE ========== -->
-                    <header class="section-title text-center">
-                        <h4 class="underline">Solid Color Background</h4>
-                        <p class="text-muted">Awesome colors in the background. 8 color schemes included.</p>
-                    </header> <!-- end header -->
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="solid-rotator.html" title="Solid Color Background + Word Rotator">
-                            <img src="images/demo10.jpg" alt="Demo 10" class="img-responsive">
-                            <h6 class="mtn">Word Rotator</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="solid-typer.html" title="Solid Color Background + Word Typer">
-                            <img src="images/demo11.jpg" alt="Demo 11" class="img-responsive">
-                            <h6 class="mtn">Word Typer</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="solid-static.html" title="Solid Color Background + Static Text">
-                            <img src="images/demo12.jpg" alt="Demo 12" class="img-responsive">
-                            <h6 class="mtn">Static Text</h6>
-                        </a>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section> <!-- end demos-section -->
-
-        <!-- ========== GRADIENT BACKGROUND DEMOS SECTION ========== -->
-        <section class="demos-section">
-            <div class="container">
-                <div class="row">
-
-                    <!-- ========== SECTION TITLE ========== -->
-                    <header class="section-title text-center">
-                        <h4 class="underline">Colored Gradient Background</h4>
-                        <p class="text-muted">Awesome colors in the background. 8 color schemes included.</p>
-                    </header> <!-- end header -->
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="gradient-rotator.html" title="Gradient Background + Word Rotator">
-                            <img src="images/demo13.jpg" alt="Demo 13" class="img-responsive">
-                            <h6 class="mtn">Word Rotator</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="gradient-typer.html" title="Gradient Background + Word Typer">
-                            <img src="images/demo14.jpg" alt="Demo 14" class="img-responsive">
-                            <h6 class="mtn">Word Typer</h6>
-                        </a>
-                    </div>
-
-                    <!-- ========== DEMO IMAGE & LINK ========== -->
-                    <div class="col-md-4 col-sm-6 text-center demo-link">
-                        <a href="gradient-static.html" title="Gradient Background + Static Text">
-                            <img src="images/demo15.jpg" alt="Demo 15" class="img-responsive">
-                            <h6 class="mtn">Static Text</h6>
-                        </a>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section> <!-- end demos-section -->
-
-        <!-- ========== MORE REASONS ========== -->
-        <section class="demos-section">
-            <div class="container">
-                <div class="row">
-
-                    <!-- ========== SECTION TITLE ========== -->
-                    <header class="section-title text-center">
-                        <h4 class="underline">Looking for more?</h4>
-                        <p class="text-muted">We are already working on few more demos. </p>
-                    </header> <!-- end header -->
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 text-center section-title">
+                            <h3 class="underline longer-underline">Little About Us</h3>
+                            <p>Sree is a clean and minimal HTML template that is fully responsive. Modern and stylish design makes it perfect for creative agencies and other types of business. It is carefully designed to convey perfect elegance through user friendly experience and customization simplicity. This theme is easy to work with.</p>
+                        </div>
+                    </div> <!-- end row -->
 
                     <div class="row mb50">
                         <div class="col-md-5 col-md-offset-1 col-sm-6">
                             <div class="sr-box text-center">
-                                <h4 class="underline">Documentation</h4>
-                                <p>'Sree' is well documented with offline as well as online documentation. To make it easy for you, we have created gif images wherever required for reference. </p>
+                                <h4 class="underline">Our Mission</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <i class="bg-icon ion-ios-flame"></i>
                             </div>
                         </div> <!-- end col-md-5 -->
                         <div class="col-md-5 col-sm-6">
                             <div class="sr-box text-center">
-                                <h4 class="underline">Support</h4>
-                                <p>We have dedicated support team which is ready to help you quickly. Just raise an ticket online & we get back to you within a business day. </p>
+                                <h4 class="underline">Our Vision</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <i class="bg-icon ion-ios-lightbulb"></i>
                             </div>
                         </div> <!-- end col-md-5 -->
                     </div> <!-- end row -->
 
-                    <div class="row text-center">
-                        <a class="sr-btn btn-primary" href="http://themeforest.net/item/sree-responsive-coming-soon-template/15846988" target="_blank">Buy Now @ $10</a>
-                        <a class="sr-btn white-btn" href="#demos">Check Demos Again</a>
-                    </div>
+                </div> <!-- end container -->
+            </section> <!-- end section -->
 
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section> <!-- end demos-section -->
+            <!-- ========== CONTACT US SECTION ========== -->
+            <section class="content-section section" id="contactUs">
+                <div class="container">
 
-        <!-- ========== FOOTER ========== -->
-        <footer class="text-center">
-            <p class="mbn">&copy; 2016. All Rights Reserved. ThemesEase.</p>
-        </footer>
+                    <!-- ========== SECTION TITLE ========== -->
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 text-center section-title">
+                            <h3 class="underline longer-underline">Contact Us</h3>
+                            <p>We are ready for any challenges, We make your business better. Feel free to contact us anytime to boost your business and achieve new milestones.</p>
+                        </div>
+                    </div> <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <h5 class="underline">Address</h5>
+                                    <p class="mb50">A902, Crosswinds Apt, <br>
+                                        Western Road, Brighton, <br>
+                                        East Sussex, Bath, <br>
+                                        England - BA2 4QG.</p>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <h5 class="underline">Email Id</h5>
+                                    <p class="mb50">
+                                        themesease@gmail.com<br>
+                                        support@themesease.com
+                                    </p>
+                                </div>
+                            </div> <!-- end row -->
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <h5 class="underline">Contact Numbers</h5>
+                                    <p class="mb50">
+                                        +1 (123) 456-7890<br>
+                                        +1 (234) 456-7981
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <h5 class="underline">Follow Us</h5>
+                                    <p class="mb50">
+                                        <a href="#" class="social-btn"><i class="fa fa-facebook"></i></a>
+                                        <a href="#" class="social-btn"><i class="fa fa-twitter"></i></a>
+                                        <a href="#" class="social-btn"><i class="fa fa-google-plus"></i></a>
+                                    </p>
+                                </div>
+                            </div> <!-- end row -->
+                        </div> <!-- end col-md-6 -->
+
+                        <div class="col-md-6 mt50">
+                            <form class="contact-us-form" id="form" action="send-email-mailgun.php" method="post">
+
+                                <input type="text" name="name" value="" placeholder="Enter Your Name.." required=""/>
+                                <input type="email" name="email" value="" placeholder="Email Your Email Id.." required=""/>
+                                <textarea name="message" placeholder="Email Your Message.." required="" rows="5"></textarea>
+
+                                <div class="clearfix "></div>
+
+                                <button type="submit" class="sr-btn sr-primary hvr-sweep-to-right pull-right mb20"><span class="icon pe-7s-paper-plane"></span>Send Email</button>
+                            </form> <!-- end form -->
+                        </div> <!-- end col-md-6 -->
+
+                    </div> <!-- end row -->
+                </div> <!-- end container -->
+            </section> <!-- ========== end contact us section ========== -->
+        </div> <!-- end fullpage -->
+
+        <!-- ========== SWITCHER ========== -->
+        <div class="switcher" id="switcher">
+            <span class="handle" title="Style Settings"><i class="ion-ios-cog"></i></span>
+            <h5 class="underline">Style Settings</h5>
+
+            <div class="mb30">
+                <span class="color alizarin" data-color-class="alizarin" title="Alizarin"></span>
+                <span class="color torquoise" data-color-class="torquoise" title="Torquoise"></span>
+                <span class="color sunflower" data-color-class="sunflower" title="Sun Flower"></span>
+                <span class="color carrot" data-color-class="carrot" title="Carrot"></span>
+                <span class="color peterriver" data-color-class="peterriver" title="Peter River"></span>
+                <span class="color wisteria" data-color-class="wisteria" title="Wisteria"></span>
+                <span class="color nephritis" data-color-class="nephritis" title="Nephritis"></span>
+                <span class="color midnightblue" data-color-class="midnightblue" title="Midnight Blue"></span>
+            </div>
+
+            <span class="switch-header light active">Light Header</span>
+            <span class="switch-header dark">Dark Header</span>
+            <p class="text-center">Visible when page scrolled</p>
+
+            <p class="text-center"><a href="index.html" title="View Other Demos">View All Demos</a></p>
+        </div>
 
     	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     	<script>
@@ -484,7 +309,7 @@
         <!-- ========== MINIFIED PLUGINS JS ========== -->
     	<script src="scripts/plugins.js"></script>
 
-    	<script src="scripts/main-demo.js"></script>
+    	<script src="scripts/main.js"></script>
     </body>
 
 </html>
